@@ -1,0 +1,44 @@
+{
+  "name": "att",
+  "version": "0.0.0",
+  "appPath": "src/main/webapp",
+  "testPath": "src/test/javascript/spec",
+  "dependencies": {
+    "angular": "1.4.3",
+    "angular-animate": "1.4.3",
+    "angular-bootstrap": "0.13.1",
+    "angular-cache-buster": "0.4.3",
+    "angular-cookies": "1.4.3",
+    "angular-dynamic-locale": "0.1.27",
+    "angular-http-auth": "~1.2.2",
+    "angular-local-storage": "0.2.0",
+    "angular-resource": "1.4.3",
+    "angular-sanitize": "1.4.3",
+    "angular-translate": "2.7.0",
+    "angular-translate-interpolation-messageformat": "2.7.0",
+    "angular-translate-loader-partial": "2.7.0",
+    "angular-translate-storage-cookie": "2.7.0",
+    "angular-ui-router": "0.2.15",
+    "angular-ui-tree": "~2.9.0",
+    "angularjs-toaster": "~0.4.15",
+    "bootstrap-sass": "3.3.4",
+    "font-awesome": "fontawesome#~4.4.0",
+    "jquery": "2.1.4",
+    "json3": "3.3.2",
+    "modernizr": "2.8.3",
+    "ng-file-upload": "5.0.9",
+    "ng-remote-validate": "~0.6.1",
+    "ngInfiniteScroll": "1.2.0",
+    "ngstorage": "~0.3.9",
+    "ui-select": "angular-ui-select#~0.12.1"
+  },
+  "devDependencies": {
+    "angular-mocks": "1.4.3",
+    "angular-scenario": "1.4.3"
+  },
+  "resolutions": {
+    "angular": "1.4.3",
+    "angular-cookies": "1.4.3",
+    "jquery": "2.1.4"
+  }
+}

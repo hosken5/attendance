@@ -1,0 +1,31 @@
+server:
+    port: 8082
+
+spring:
+    profiles:
+        active: dev
+    datasource:
+#         We recommended using dataSourceClassName instead of jdbcUrl, but both are acceptable.
+#         We'll say that again, both are acceptable.
+#        Note: Spring Boot auto-configuration users, you need to use jdbcUrl-based configuration.
+        driverClassName: net.sf.log4jdbc.DriverSpy
+        jdbcUrl: jdbc:log4jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf8
+        dataSourceClassName: com.mysql.jdbc.jdbc2.optional.MysqlDataSource
+        url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf8
+        databaseName:
+        serverName:
+        username: demo
+        password: demo
+        # 开启缓存设置
+        cachePrepStmts: true
+        # 缓存mysql预处理的连接个数，默认是25
+        prepStmtCacheSize: 250
+        # 缓存预处理sql语句的最大长度,默认是256
+        prepStmtCacheSqlLimit: 2048
+        useServerPrepStmts: true
+    messages:
+        cache-seconds: 1
+
+
+
+
